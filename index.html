@@ -694,6 +694,7 @@
     <!-- Ambassador -->
     <script>
         var exampleDomain = window.location.host.split('.')[0];
+        exampleDomain = (exampleDomain === 'heather' ? '2e9a49a6-6d7e-48fd-9cb2-95dd2a83a824' : exampleDomain);
         exampleDomain = (exampleDomain !== 'b2bdemo' ? exampleDomain : 'cb1412db-60a7-4676-928d-e430fd6a50f9');
         (function (u, n, i, v, e, r, s, a, l) {u[r] = {}; u[r].uid = exampleDomain;a = n.createElement(v); a.src = e; a.async = s;n.getElementsByTagName(i)[0].appendChild(a);})(window, document, 'head', 'script', 'https://cdn.getambassador.com/us.js', 'mbsy', true);
     </script>
